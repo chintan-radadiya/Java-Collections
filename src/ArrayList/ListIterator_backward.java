@@ -1,7 +1,8 @@
 package ArrayList;
+
 import java.util.*;
 
-public class ListIterator_forward {
+public class ListIterator_backward{
     public static void main(String[] args) {
 
         Scanner sc = new Scanner (System.in);
@@ -13,9 +14,8 @@ public class ListIterator_forward {
         }
         System.out.println(list);
 
-       ListIterator<Integer> itr = list.listIterator();
-        while(itr.hasNext()){
-            System.out.print(itr.next() + "\t");
+        ListIterator<Integer> itr = list.listIterator(list.size());
+        while(itr.hasPrevious()){
+            System.out.print(itr.previous() + "\t");
         }
-    }
-}
+    }}

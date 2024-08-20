@@ -5,7 +5,7 @@ public class Print_using_Iteratos
 {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
-    Scanner sc =  new Scanner(System.in);
+
 
         for (int i = 1; i <=10; i++) {
             list.add(i*10);
