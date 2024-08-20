@@ -15,6 +15,7 @@ public class check_contains {
 
         System.out.print("Enter value to check:");
         int val = sc.nextInt();
+        System.out.println();
 
         System.out.println(list.contains(val));
 
