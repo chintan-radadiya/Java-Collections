@@ -1,4 +1,4 @@
-package Employee;
+package Employee.approch1;
 
 public class Employee {
 
@@ -6,9 +6,10 @@ public class Employee {
     String name;
     int salary;
 
-    Employee(int id,String name, int salary){
+    Employee(int id, String name, int salary){
         this.id = id;
         this.name = name;
         this.salary = salary;
     }
+
 }
